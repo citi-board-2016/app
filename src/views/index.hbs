@@ -1,6 +1,15 @@
 <img src="/images/logo">
 <div id="stations">
-  <p>* Display station options here to choose from *</p>
+  <br><br><br><br>
+  <h1>View by starting station</h1>
+  <button id="station_1" onclick="window.location.href='stations?id=1'">1 Ave &amp; E 16 St</button>
+  <br><br>
+  <button id="station_2" onclick="window.location.href='stations?id=2'">10th St &amp; 5 Ave</button>
+  <br><br>
+  <h1>View by ending station</h1>
+  <button id="station_3" onclick="window.location.href='stations?id=3'">6 Ave &amp; Broome St</button>
+  <br><br>
+  <button id="station_4" onclick="window.location.href='stations?id=4'">Division St &amp; Bowery</button>
   <h3> or </h3>
   <form method="GET" action="/stations">
     Enter location: <input type="text">
@@ -8,7 +17,16 @@
   </form>
 </div>
 <div id="board">
-  <p>* Display board options here to choose from *</p>
+  <h1>View by board</h1>
+  <button id="board_16" onclick="window.location.href='boards'">16966</button>
+  <br><br>
+  <button id="board_17" onclick="window.location.href='boards'">17638</button>
+  <br><br>
+  <button id="board_18" onclick="window.location.href='boards'">18605</button>
+  <br><br>
+  <button id="board_19" onclick="window.location.href='boards'">19672</button>
+  <br><br>
+  <button id="board_20" onclick="window.location.href='boards'">20803</button>
   <h3> or </h3>
   <form method="GET" action="/boards">
     Enter board: <input type="text">

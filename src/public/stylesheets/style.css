@@ -6,3 +6,21 @@ body {
 a {
   color: #00B7FF;
 }
+
+ul {
+  list-style: none;
+}
+
+#stations {
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#boards {
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+}
