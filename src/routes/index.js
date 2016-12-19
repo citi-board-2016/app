@@ -23,7 +23,16 @@ router.get('/stations', function(req, res) {
 });
 
 router.get('/boards', function(req, res) {
-  res.render('boards');
+  if (req.query.id == 1)
+    res.render('boards', {board: '14530', numUses: '2'});
+  else if (req.query.id == 2)
+    res.render('boards', {board: '14531', numUses: '6'});
+  else if (req.query.id == 3)
+    res.render('boards', {board: '14532', numUses: '10'});
+  else if (req.query.id == 4)
+    res.render('boards', {board: '14533', numUses: '3'});
+  else if (req.query.id == 5)
+    res.render('boards', {board: '14535', numUses: '7'});
 });
 
 module.exports = router;
