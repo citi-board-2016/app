@@ -1,0 +1,7 @@
+{
+  "mongoHost": "ds139198.mlab.com",
+  "mongoPort": "39198",
+  "mongoDatabase": "boards",
+  "mongoUser": "alisonelee",
+  "mongoPass": "databasepassword",
+}
